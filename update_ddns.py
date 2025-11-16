@@ -97,9 +97,9 @@ def update_ddns(domain, subdomain, token, api_url, timeout, get_ip_url):
                 .format(current_ip))
 
 if __name__ == "__main__":
-    update_ddns('artkolev.ru',
-                'tg',
-                '936a3a3f53da09d1234ac3f634fde76bb1603125e4772e4c95edb105',
+    update_ddns('example.com',
+                'subdomain',
+                'secret_coken',
                 'https://pddimp.yandex.ru/nsapi/',
                 600,
                 'https://api.ipify.org/')
